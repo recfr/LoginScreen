@@ -13,6 +13,9 @@
 		6B51615D28F8700A00A6162F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B51615B28F8700A00A6162F /* Main.storyboard */; };
 		6B51615F28F8700B00A6162F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B51615E28F8700B00A6162F /* Assets.xcassets */; };
 		6B51616228F8700B00A6162F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B51616028F8700B00A6162F /* LaunchScreen.storyboard */; };
+		6B5AF22C28F8AD2000A71EB7 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AF22B28F8AD2000A71EB7 /* CreateAccountViewController.swift */; };
+		6BA3466C28F8C38300F2D3CD /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3466B28F8C38300F2D3CD /* LoggedInViewController.swift */; };
+		6BA3466E28F8C3A300F2D3CD /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA3466D28F8C3A300F2D3CD /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6B51615E28F8700B00A6162F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B51616128F8700B00A6162F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B51616328F8700B00A6162F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5AF22B28F8AD2000A71EB7 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		6BA3466B28F8C38300F2D3CD /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		6BA3466D28F8C3A300F2D3CD /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				6B51615528F8700A00A6162F /* AppDelegate.swift */,
 				6B51615728F8700A00A6162F /* SceneDelegate.swift */,
 				6B51615928F8700A00A6162F /* ViewController.swift */,
+				6B5AF22B28F8AD2000A71EB7 /* CreateAccountViewController.swift */,
+				6BA3466B28F8C38300F2D3CD /* LoggedInViewController.swift */,
+				6BA3466D28F8C3A300F2D3CD /* ForgotPasswordViewController.swift */,
 				6B51615B28F8700A00A6162F /* Main.storyboard */,
 				6B51615E28F8700B00A6162F /* Assets.xcassets */,
 				6B51616028F8700B00A6162F /* LaunchScreen.storyboard */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5AF22C28F8AD2000A71EB7 /* CreateAccountViewController.swift in Sources */,
+				6BA3466C28F8C38300F2D3CD /* LoggedInViewController.swift in Sources */,
+				6BA3466E28F8C3A300F2D3CD /* ForgotPasswordViewController.swift in Sources */,
 				6B51615A28F8700A00A6162F /* ViewController.swift in Sources */,
 				6B51615628F8700A00A6162F /* AppDelegate.swift in Sources */,
 				6B51615828F8700A00A6162F /* SceneDelegate.swift in Sources */,
